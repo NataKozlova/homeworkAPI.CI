@@ -170,4 +170,4 @@ if [ "$(uname)" = "Darwin" ] && [ "$HOME" = "$PWD" ]; then
 fi
 
 exec "$JAVACMD" "$@"
-chmod +x gradlew
+run: chmod +x gradlew
